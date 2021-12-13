@@ -1,3 +1,24 @@
 body {
-    background: #252525;
+    background: #3A3A3A;
+}
+.logo {
+    margin: 8px 0 8px 16px;
+    height: 84px;
+    width: 591px;
+}
+/* Text stylings */
+.darktext {
+    color: #252525;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+}
+.footertext {
+    color: #dbdbdb;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.6rem;
+}
+.navtext {
+    color: #dbdbdb;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.6rem;
 }
