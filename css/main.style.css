@@ -2,11 +2,37 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #dbdbdb;
     background: #3A3A3A;
+    margin: 0;
 }
 /* LOGO Styling */
 .logo {
     margin: 24px 0 16px 24px;
     width: 591px;
+}
+/* Navigation */
+.nav-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+.top-nav, .nav-ul {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+.nav-li a:hover {
+    background-color: #111;
+  }
+.nav-li a.active {
+    background-color: black;
 }
 /* Text stylings */
 .darktext {
@@ -29,4 +55,9 @@ body {
     padding: 8px;
     -webkit-box-shadow: 0px 8px 8px 8px #252525; 
     box-shadow: 0px 8px 8px 8px #252525;
+}
+/* Styling for containers */
+.container {
+    width: auto;
+    margin: 0;
 }
