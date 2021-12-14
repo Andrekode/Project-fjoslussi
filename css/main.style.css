@@ -4,11 +4,13 @@ body {
     background: #3A3A3A;
     margin: 0;
 }
+
 /* LOGO Styling */
 .logo {
     margin: 24px 0 16px 24px;
     width: 591px;
 }
+
 /* Navigation */
 .nav-ul {
     list-style-type: none;
@@ -17,10 +19,13 @@ body {
     overflow: hidden;
     background-color: transparent;
 }
-.top-nav, .nav-ul {
+
+.top-nav,
+.nav-ul {
     display: flex;
     justify-content: space-between;
 }
+
 .nav-li a {
     display: block;
     color: white;
@@ -28,23 +33,29 @@ body {
     padding: 20px 20px;
     text-decoration: none;
 }
+
 .nav-li a:hover {
     background-color: #111;
-  }
+}
+
 .nav-li a.active {
     background-color: black;
 }
+
 /* Text stylings */
 .darktext {
     color: #252525;
     font-size: 1.2rem;
 }
+
 .footertext {
     font-size: 0.6rem;
 }
+
 .navtext {
     font-size: 2.6rem;
 }
+
 /* Styling of Divs */
 .mainbody {
     background: #c4c4c4;
@@ -53,11 +64,49 @@ body {
     display: flex;
     margin: 4px 32px 32px 32px;
     padding: 8px;
-    -webkit-box-shadow: 0px 8px 8px 8px #252525; 
+    -webkit-box-shadow: 0px 8px 8px 8px #252525;
     box-shadow: 0px 8px 8px 8px #252525;
 }
+
 /* Styling for containers */
 .container {
     width: auto;
     margin: 0;
+}
+
+
+/* Lussi */
+#lussi {
+    background-image: url("../img/lussinight.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-lussi {
+    margin: 100px 50px 50px 0;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    height: fit-content;
+
+
+}
+
+
+
+.lussi-text1,
+.lussi-text2,
+.lussi-text3 {
+    background-color: rgba(104, 0, 0, 0.6);
+    letter-spacing: 0.1em;
+    padding: 5px 20px;
+    border-radius: 45px;
+
+
+}
+
+.lussi-text2,
+.lussi-text3 {
+    background-color: rgba(0, 0, 0, 0.6);
+
 }
