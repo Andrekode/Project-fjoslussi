@@ -1,0 +1,21 @@
+/* FONT SELECTION */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* IMPORTING MONTAGU SLAB, AMARANTH AND ROBOTO CONDENSED */
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&family=Montagu+Slab:wght@300&family=Roboto+Condensed:wght@300&display=swap');
+
+
+/* FONT CLASSES */
+.font-roboto {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.font-montagu {
+    font-family: 'Montagu Slab', serif;
+}
+.font-amaranth, body {
+    font-family: 'Amaranth', sans-serif;
+}

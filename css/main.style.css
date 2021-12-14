@@ -1,8 +1,9 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #dbdbdb;
-    background: #3A3A3A;
     margin: 0;
+    background-image: url("../img/svg/nisser-bkg1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* LOGO Styling */
@@ -66,12 +67,6 @@ body {
     padding: 8px;
     -webkit-box-shadow: 0px 8px 8px 8px #252525;
     box-shadow: 0px 8px 8px 8px #252525;
-}
-
-/* Styling for containers */
-.container {
-    width: auto;
-    margin: 0;
 }
 
 
