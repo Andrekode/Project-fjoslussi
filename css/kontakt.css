@@ -1,0 +1,91 @@
+.mainbody {
+	background: rgb(133, 0, 0);   /*  10% opaque green */ 
+    color: white;
+}
+.kontakt-container {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin: 0 auto;
+}
+/* Kontakt */
+.kontakt-text h2 {
+    font-size: 36px;
+    margin: 0;
+    text-align: center;
+}
+.kontakt-text h3 {
+    font-size: 24px;
+    margin: 0;
+    text-align: center;
+}
+.kontakt-text hr {
+    width: 50%;
+    height: 2px;
+    border-width: 0;
+    color: grey;
+    background-color: black;
+}
+.kontakt-text p {
+    text-align: center;
+}
+.kontakt-form input[type="text"],
+.kontakt-form input[type="date"],
+.kontakt-form input[type="datetime"],
+.kontakt-form input[type="email"],
+.kontakt-form input[type="number"],
+.kontakt-form input[type="search"],
+.kontakt-form input[type="time"],
+.kontakt-form input[type="url"],
+.kontakt-form textarea,
+.kontakt-form select 
+{	/*Border fade in*/
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	outline: none;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	background: #fff;
+	margin-bottom: 4%;
+	border: 1px solid #ccc;
+	padding: 2%;
+	color: #555;
+	font: 95% Arial, Helvetica, sans-serif;
+}
+.kontakt-form input[type="text"]:focus,
+.kontakt-form input[type="date"]:focus,
+.kontakt-form input[type="datetime"]:focus,
+.kontakt-form input[type="email"]:focus,
+.kontakt-form input[type="number"]:focus,
+.kontakt-form input[type="search"]:focus,
+.kontakt-form input[type="time"]:focus,
+.kontakt-form input[type="url"]:focus,
+.kontakt-form textarea:focus,
+.kontakt-form select:focus
+{
+	box-shadow: 0 0 5px grey;
+	padding: 3%;
+	border: 1px solid grey;
+}
+.kontakt-form input[type="submit"],
+.kontakt-form input[type="button"]{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	padding: 3%;
+	background: black;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;	
+	color: #fff;
+}
+.kontakt-form input[type="submit"]:hover,
+.kontakt-form input[type="button"]:hover{
+	background: rgb(26, 26, 26);
+}
