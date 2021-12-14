@@ -16,6 +16,6 @@
 .font-montagu {
     font-family: 'Montagu Slab', serif;
 }
-.font-amaranth {
+.font-amaranth, body {
     font-family: 'Amaranth', sans-serif;
 }
