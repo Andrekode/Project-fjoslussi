@@ -32,18 +32,24 @@
                     <p>Vi gleder oss til å høre fra deg.</p>
                 </div>
                 <div class="kontakt-form">
-                    <form>
-                        <input type="text" name="navn" aria-label="navn" placeholder="Navn">
-                        <input type="text" name="telefon" aria-label="telefon" placeholder="Telefon nummer">
+                    <form action="form.php" method="post">
+                        <input type="text" name="navn" aria-label="navn" placeholder="Navn"
+                        id="navn">
+                        <input type="text" name="telefon" aria-label="telefon" placeholder="Telefon nummer"
+                        id="telefon">
                         <input type="text" name="email"
-                        aria-label="email" placeholder="E-mail adresse">
-                        <input type="text" name="emne" aria-label="emne" placeholder="Emne">
-                        <textarea name="beskjed" aria-label="beskjed"  placeholder="Beskjed"></textarea>
-                        <input type="submit" value="Send">
+                        aria-label="email" placeholder="E-mail adresse"
+                        id="email">
+                        <input type="text" name="emne" aria-label="emne" placeholder="Emne"
+                        id="emne">
+                        <textarea name="beskjed" aria-label="beskjed"  placeholder="Beskjed"
+                        id="beskjed"></textarea>
+                        <input type="submit" value="Send" id="submit" onclick="return submitForm()">
                     </form>
                 </div>
             </div>
         </div>
+        <script src="js/kontakt.js"></script>
     </main>
     <footer>
         <p class="footertext">Trademark Gruppe4™ 2021-2121</p>
