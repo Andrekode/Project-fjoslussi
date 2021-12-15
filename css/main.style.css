@@ -78,11 +78,15 @@ body {
 }
 
 .container-lussi {
-    margin: 100px 50px 50px 0;
     display: flex;
     align-items: flex-start;
-    gap: 20px;
-    height: fit-content;
+    justify-content: space-between;
+    gap: 50px;
+    margin: 100px auto;
+    padding: 50px;
+     
+    
+    
 
 
 }
@@ -104,4 +108,8 @@ body {
 .lussi-text3 {
     background-color: rgba(0, 0, 0, 0.6);
 
+}
+
+.lussi-text2{
+    margin-bottom: 160px;
 }
