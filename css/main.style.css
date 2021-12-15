@@ -130,6 +130,6 @@ a:focus {
 
 .lussi-text-top {
     display: flex;
-   justify-content: space-between;
-
+   /* justify-content: space-between; */
+    
 }
