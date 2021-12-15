@@ -1,0 +1,73 @@
+/* EASTER EGG */
+.hide {
+    display: none;
+}
+      
+  .nisse:hover + .hide {
+    display: block;
+    position: fixed;
+}
+
+/* CENTERING H1 TEXT - DARK */
+.centerh1 {
+    text-align: center;
+    font-family: 'Amaranth', sans-serif;
+    font-size: 2.5rem;
+    color: #252525;
+    text-shadow: 1px 1px;
+}
+/* Footer Text */
+.footertext {
+    font-size: 0.92rem;
+    color: #252525;
+    text-align: center;
+}
+
+/* LOGO Styling -UPDATED TO REMAKE */
+.logo {
+    margin: 24px 0 16px 24px;
+    width: 660px; /* CHANGED */
+}
+
+/*  */
+/*  */
+/* MOVED FLEX TO flex-container*/
+.mainbody {
+    background: #c4c4c4;
+    color: #3a3a3a;
+    border-radius: 48px;
+    margin: 4px 32px 32px 32px;
+    padding: 8px;
+    -webkit-box-shadow: 0px 8px 8px 8px #252525;
+    box-shadow: 0px 8px 8px 8px #252525;
+}
+.flex-container{
+    display: flex;
+    margin: 4px 32px 32px 32px;
+    padding: 8px;
+}
+/*  */
+/*  */
+
+/* LINK STYLINGS */
+a.atd:hover {
+    text-shadow: 1px 1px;
+    color: #252525;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+a.atd:link {
+    color: #252525;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+a.atd:visited {
+    color: #252525;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+a.atd {
+    color: #252525;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
