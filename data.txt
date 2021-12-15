@@ -1,0 +1,7 @@
+{
+    "navn": "dasdad",
+    "telefon": "21312321321312",
+    "email": "re@g.com",
+    "emne": "1312321321",
+    "beskjed": "321321"
+}
