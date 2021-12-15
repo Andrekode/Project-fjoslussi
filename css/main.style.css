@@ -79,8 +79,7 @@ body {
 
 .container-lussi {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    align-items: flex-start;
     gap: 50px;
     margin: 100px auto;
     padding: 50px;
@@ -118,12 +117,19 @@ a:focus {
 
 }
 
-.lussi-text2 {
-    margin-bottom: 160px;
+.lussi-text3 {
+    margin-top: 100px;
+
 }
 
 .lussi-text1-quote {
     text-align: center;
 
     color: red;
+}
+
+.lussi-text-top {
+    display: flex;
+   justify-content: space-between;
+
 }
