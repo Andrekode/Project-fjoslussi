@@ -1,3 +1,4 @@
+
 /* CENTERING H1 TEXT - DARK */
 .centerh1 {
     text-align: center;
@@ -32,3 +33,26 @@
 }
 /*  */
 /*  */
+
+/* LINK STYLINGS */
+a.atd:hover {
+    text-shadow: 1px 1px;
+    color: #252525;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+a.atd:link {
+    color: #252525;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+a.atd:visited {
+    color: #252525;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+a.atd {
+    color: #252525;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
