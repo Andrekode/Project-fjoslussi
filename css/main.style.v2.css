@@ -140,7 +140,7 @@ main {
     justify-content: space-between; /* lager margins ved behov */
     min-width: 320px;
 }
-.col { /* (synlig) hoved wrapper med basic styling */
+.col { /* (synlig) wrapper med basic styling */
     padding: 0 2em 2em;
     background-color: rgba(104, 0, 0, 0.6); /* default red, legg til farge class for å endre */
     border-radius: 48px;
@@ -149,7 +149,7 @@ main {
     margin: 0 auto 40px;
     width: 100%;
 }
-.col-side { /* side-wrapper */
+.col-side { /* (usynlig) side-wrapper */
     display: flex;
     align-items: flex-start;
     flex-wrap: inherit;
