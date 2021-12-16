@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/main.style.css">
     <link rel="stylesheet" href="css/kontakt.css">
     <link rel="stylesheet" href="css/fontselection.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>
@@ -33,17 +34,31 @@
                 </div>
                 <div class="kontakt-form">
                     <form action="save_json.php" method="post">
-                        <input type="text" name="navn" placeholder="Navn"
-                        id="navn">
-                        <input type="number" name="telefon"  placeholder="Telefon nummer"
+                        <div class="input-container">
+                            <i class="fa fa-user icon"></i>
+                            <input type="text" name="navn" placeholder="Navn" id="navn">
+                        </div>
+                        <div class="input-container">
+                            <i class="fa fa-phone icon"></i>
+                            <input type="number" name="telefon"  placeholder="Telefon nummer"
                         id="telefon">
-                        <input type="email" name="email"
-                        placeholder="E-mail adresse"
-                        id="email">
-                        <input type="text" name="emne"  placeholder="Emne"
-                        id="emne">
-                        <textarea name="beskjed"   placeholder="Beskjed"
-                        id="beskjed"></textarea>
+                        </div>
+                        <div class="input-container">
+                            <i class="fa fa-envelope icon"></i>
+                            <input type="email" name="email"
+                            placeholder="E-mail adresse"
+                            id="email">
+                        </div>
+                        <div class="input-container">
+                            <i class="fa fa-sticky-note icon"></i>
+                            <input type="text" name="emne"  placeholder="Emne"
+                            id="emne">
+                        </div>
+                        <div class="input-container">
+                            <i class="fa fa-comments icon"></i>
+                            <textarea name="beskjed"   placeholder="Beskjed"
+                            id="beskjed"></textarea>
+                        </div>
                         <input type="submit" value="Send" id="submit" onclick="return submitForm()">
                     </form>
                 </div>
