@@ -35,8 +35,14 @@ img {
     display: flex;
     justify-content: space-between;
 }
-
-.nav-li a {
+/* Styling of button */
+#toggleSnowBtnOn {
+    background-color: transparent;
+    border: none;
+    color: white;
+    height: 60px;
+}
+.nav-li a, #toggleSnowBtnOn {
     display: block;
     color: white;
     text-align: center;
@@ -44,7 +50,7 @@ img {
     text-decoration: none;
 }
 
-.nav-li a:hover {
+.nav-li a:hover, #toggleSnowBtnOn:hover {
     background-color: #111;
 }
 
