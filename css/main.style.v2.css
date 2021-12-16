@@ -1,5 +1,7 @@
 /* IMPORTING MONTAGU SLAB, AMARANTH AND ROBOTO CONDENSED */
 @import url('https://fonts.googleapis.com/css2?family=Amaranth&family=Montagu+Slab:wght@300&family=Roboto+Condensed:wght@300&display=swap');
+
+/* Hoved elementer */
 body {
     color: #dbdbdb;
     margin: 0;
@@ -57,18 +59,9 @@ img {
 .nav-li a.active {
     background-color: black;
 }
-/* EASTER EGG */
-.hide {
-    display: none;
-}
-      
-  .easteregg:hover + .hide {
-    display: block;
-    position: fixed;
-}
+
 
 /* Text stylings */
-    /* FONT CLASSES */
 .font-roboto {
     font-family: 'Roboto Condensed', sans-serif;
 }
@@ -132,20 +125,22 @@ a.atd {
     text-decoration: none;
 }
 
-/* Styling of Divs */
+/* Styling of Divs 
+ * wrapper/container systemet er enkelt, utvidbart og responsivt: en usynlig div fulgt: basic-style div, fulgt av: extra-styling-klasse(r) f.eks: .col-dark
+*/
 main {
     width: 95%; /* for wrappers/containers er dette ett kort alternativ til: margin: xx xx xx xx;*/
     max-width: 1800px; /* denne sammen med margin: 0 auto; sørger for at content er i midten */
     margin: 0 auto;
 }
-.cols {
+.cols { /* (usynlig) hoved wrapper */
     display: flex;
     align-items: flex-start; /* pusher cols til toppen */
     flex-wrap: wrap; /* automatisk linebreaks ved overflow */
     justify-content: space-between; /* lager margins ved behov */
     min-width: 320px;
 }
-.col { /* felles verdier for alle col-x */
+.col { /* (synlig) hoved wrapper med basic styling */
     padding: 0 2em 2em;
     background-color: rgba(104, 0, 0, 0.6); /* default red, legg til farge class for å endre */
     border-radius: 48px;
@@ -154,7 +149,7 @@ main {
     margin: 0 auto 40px;
     width: 100%;
 }
-.col-side {
+.col-side { /* side-wrapper */
     display: flex;
     align-items: flex-start;
     flex-wrap: inherit;
@@ -164,6 +159,7 @@ main {
     flex-direction: row;
     margin: 0 auto 40px;
 }
+/* stil utvidelser for wrappers */
 .col-dark {
     background-color:rgba(0,0,0,0.6);
 }
@@ -182,18 +178,23 @@ main {
 .col-20 {
     width: 20%;
 }
+/* extra wrapper */
 .flex-container{
     display: flex;
     margin: 4px 32px 32px 32px;
     padding: 8px;
 }
 
-/* Fjosnisse */
+/*  */
+/* fjosnisse.html */
+/*  */
 #fjosnisse {
     background: radial-gradient(#754545, #101515);
 }
 
-/* Lussi */
+/*  */
+/* lussi.html */
+/*  */
 #lussi {
     margin: 0;
     background-image: url("../img/lussinight.jpg");
@@ -221,7 +222,7 @@ main {
 
 
 /*  */
-/* KONTAKT.CSS */
+/* kontakt.html */
 /*  */
 .kontakt-form {
 	text-align: center;
@@ -330,4 +331,13 @@ main {
     padding: 8px;
     -webkit-box-shadow: 0px 8px 8px 8px #252525;
     box-shadow: 0px 8px 8px 8px #252525;
+}
+
+/* EASTER EGG */
+.hide {
+    display: none;
+}
+.easteregg:hover + .hide {
+    display: block;
+    position: fixed;
 }
