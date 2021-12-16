@@ -181,6 +181,10 @@ main {
     padding: 8px;
 }
 
+/* Fjosnisse */
+#fjosnisse {
+    background: radial-gradient(#754545, #101515);
+}
 
 /* Lussi */
 #lussi {
