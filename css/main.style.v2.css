@@ -181,6 +181,10 @@ main {
     padding: 8px;
 }
 
+/* Fjosnisse */
+#fjosnisse {
+    background: radial-gradient(#754545, #101515);
+}
 
 /* Lussi */
 #lussi {
@@ -233,12 +237,10 @@ main {
 .kontakt-text h2 {
     font-size: 36px;
     margin: 0;
-    text-align: center;
 }
 .kontakt-text h3 {
     font-size: 24px;
     margin: 0;
-    text-align: center;
 }
 .kontakt-text hr {
     width: 50%;
@@ -269,14 +271,14 @@ main {
 	box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
-	width: 50%;
-	background: #fff;
-	margin-bottom: 4%;
+	width: 100%;
+	background: rgb(230, 230, 230);
 	border: 1px solid #ccc;
-	padding: 2%;
+	padding: 3%;
 	color: #555;
-	border-radius: 50px;
 	resize: none;
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
 }
 .kontakt-form input[type="text"]:focus,
 .kontakt-form input[type="date"]:focus,
@@ -289,9 +291,8 @@ main {
 .kontakt-form textarea:focus,
 .kontakt-form select:focus
 {
-	box-shadow: 0 0 5px grey;
-	padding: 3%;
-	border: 1px solid grey;
+	background-color: #fff;
+	border: 1px solid rgb(255, 0, 0);
 }
 .kontakt-form input[type="submit"],
 .kontakt-form input[type="button"]{
@@ -301,11 +302,35 @@ main {
 	width: 50%;
 	padding: 3%;
 	background: black;
-	border-radius: 50px;
 	border: none;
 	color: #fff;
+	border-radius: 50px;
 }
 .kontakt-form input[type="submit"]:hover,
 .kontakt-form input[type="button"]:hover{
-	background: rgb(26, 26, 26);
+	background: rgb(255, 255, 255);
+    color: black;
+}
+.icon {
+	text-align: center;
+	min-width: 50px;
+	padding: 10px;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-top-left-radius: 50px;
+	border-bottom-left-radius: 50px;
+}
+.input-container {
+	display: flex;
+	width: 100%;
+	margin-bottom: 4%;
+}
+.kontakt-body {
+	background-color: rgba(104, 0, 0, 0.6);
+	color: white;
+	width: fit-content;
+    border-radius: 48px;
+    margin: auto;
+    padding: 8px;
+    -webkit-box-shadow: 0px 8px 8px 8px #252525;
+    box-shadow: 0px 8px 8px 8px #252525;
 }
