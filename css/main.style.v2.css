@@ -272,7 +272,7 @@ main {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	width: 100%;
-	background: #fff;
+	background: rgb(230, 230, 230);
 	border: 1px solid #ccc;
 	padding: 3%;
 	color: #555;
@@ -291,9 +291,8 @@ main {
 .kontakt-form textarea:focus,
 .kontakt-form select:focus
 {
-	box-shadow: 0 0 5px grey;
-	padding: 3%;
-	border: 1px solid grey;
+	background-color: #fff;
+	border: 1px solid rgb(255, 0, 0);
 }
 .kontakt-form input[type="submit"],
 .kontakt-form input[type="button"]{
@@ -309,7 +308,8 @@ main {
 }
 .kontakt-form input[type="submit"]:hover,
 .kontakt-form input[type="button"]:hover{
-	background: rgb(26, 26, 26);
+	background: rgb(255, 255, 255);
+    color: black;
 }
 .icon {
 	text-align: center;
