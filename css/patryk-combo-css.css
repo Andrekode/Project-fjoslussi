@@ -138,56 +138,23 @@ main {
     background-size: cover;
 }
 
-.container-lussi {
-    display: flex;
-    align-items: flex-start;
-    margin: 0 auto;
-    gap: 50px;
-    padding: 0 20px;
 
-
-
-
-
-}
-
-.container-lussi a {
-    color: white;
-}
-
-.container-lussi a:hover,
-a:focus {
-    color: teal
-}
-
-
-.col-lussi {
-    background-color: rgba(0,0,0,0.6);
-   
-    padding: 8px;
-    border-radius: 45px;
-    -webkit-box-shadow: 0px 8px 8px 8px #252525;
-    box-shadow: 0px 8px 8px 8px #252525;
-    
-}
-
-
-
-
-.lussi-gap {
-    margin-top: 52px;
-
-}
 
 .lussi-text1-quote {
     text-align: center;
-
     color: red;
 }
 
 .lussi-text-top {
     display: flex;
    
-    
+}
+
+.kilder a {
+    color: #dbdbdb;
+}
+
+.kilder a:hover, a:focus{
+    color: teal;
 }
 
