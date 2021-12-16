@@ -1,7 +1,13 @@
 {
-    "navn": "dasdad",
-    "telefon": "21312321321312",
-    "email": "re@g.com",
-    "emne": "1312321321",
-    "beskjed": "321321"
+    "navn": "3123",
+    "telefon": "31231",
+    "email": "321312@fdsf.com312",
+    "emne": "321312",
+    "beskjed": "321312"
+}{
+    "navn": "3213",
+    "telefon": "321321",
+    "email": "321321@312.3213",
+    "emne": "32131",
+    "beskjed": "21312"
 }
