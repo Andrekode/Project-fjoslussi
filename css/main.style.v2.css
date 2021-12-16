@@ -137,6 +137,7 @@ main {
     align-items: flex-start; /* pusher cols til toppen */
     flex-wrap: wrap; /* automatisk linebreaks ved overflow */
     justify-content: space-between; /* lager margins ved behov */
+    min-width: 320px;
 }
 .col { /* felles verdier for alle col-x */
     padding: 0 2em 2em;
