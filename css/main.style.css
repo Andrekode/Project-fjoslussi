@@ -72,6 +72,7 @@ body {
 
 /* Lussi */
 #lussi {
+    margin: 0;
     background-image: url("../img/lussinight.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -81,7 +82,7 @@ body {
     display: flex;
     align-items: flex-start;
     gap: 50px;
-    margin: 100px auto;
+    margin: 0 auto;
     padding: 50px;
 
 
@@ -100,28 +101,21 @@ a:focus {
 }
 
 
-.lussi-text1,
-.lussi-text2,
-.lussi-text3 {
-    background-color: rgba(104, 0, 0, 0.6);
+.col-lussi {
+    background-color: rgba(0,0,0,0.6);
     letter-spacing: 0.1em;
     padding: 5px 20px;
     border-radius: 45px;
     -webkit-box-shadow: 0px 8px 8px 8px #252525;
     box-shadow: 0px 8px 8px 8px #252525;
     
-
-
 }
 
-.lussi-text2,
-.lussi-text3 {
-    background-color: rgba(0, 0, 0, 0.6);
 
-}
 
-.lussi-text3 {
-    margin-top: 50px;
+
+.lussi-gap {
+    margin-top: 52px;
 
 }
 
@@ -133,6 +127,7 @@ a:focus {
 
 .lussi-text-top {
     display: flex;
-   /* justify-content: space-between; */
+   
     
 }
+
