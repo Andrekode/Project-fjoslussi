@@ -16,4 +16,10 @@
     "email": "321312@fdsf.com312",
     "emne": "321312",
     "beskjed": "321321"
+}{
+    "navn": "312321",
+    "telefon": "321321",
+    "email": "312321@ffds.com",
+    "emne": "321321",
+    "beskjed": "312321"
 }

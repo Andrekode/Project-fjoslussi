@@ -13,5 +13,5 @@ $jsondata = json_encode($formdata, JSON_PRETTY_PRINT);
 FILE_APPEND so it doesnt overwrite the old data */
 file_put_contents("data.txt", $jsondata, FILE_APPEND);
 #redirects to index.html after finishing
-header("Location:index.html");
+header("Location:kontakt.html");
 ?>
